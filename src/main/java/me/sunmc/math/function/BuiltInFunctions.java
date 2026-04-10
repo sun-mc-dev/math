@@ -11,7 +11,7 @@ import java.util.Optional;
  * <p>All standard mathematical functions are registered here, organized
  * by category. The registry is immutable and thread-safe.</p>
  *
- * <h3>Categories</h3>
+ * <h2>Categories</h2>
  * <ul>
  *   <li><b>Trigonometric</b>: sin, cos, tan, cot, sec, csc</li>
  *   <li><b>Inverse trigonometric</b>: asin, acos, atan, atan2</li>

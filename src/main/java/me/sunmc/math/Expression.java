@@ -27,7 +27,7 @@ import java.util.stream.Collectors;
  * double result = expr.evaluate();
  * }</pre>
  *
- * <h3>Thread Safety</h3>
+ * <h2>Thread Safety</h2>
  * <p>The compiled token list is immutable and shared. Variable bindings are
  * stored in a mutable map, so each thread should use its own {@code Expression}
  * instance (obtainable via {@link #copy()}).</p>

@@ -13,7 +13,9 @@ public class ParseException extends MathException {
 
     private static final long serialVersionUID = 1L;
 
+    /** The expression that failed to parse. */
     private final String expression;
+    /** The character position where the error was detected. */
     private final int position;
 
     /**

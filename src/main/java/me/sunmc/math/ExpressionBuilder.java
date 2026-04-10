@@ -23,7 +23,7 @@ import java.util.*;
  *     .build();
  * }</pre>
  *
- * <h3>Custom Functions and Operators</h3>
+ * <h2>Custom Functions and Operators</h2>
  * <pre>{@code
  * MathFunction logb = MathFunction.of("logb", (value, base) ->
  *     Math.log(value) / Math.log(base));
